@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(fondo.jpeg);
+}
+
+.container {
+    background-color: #d2caa3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 70vh;
+}
+
+.box{
+    width: 50vh;
+    height: 30vh;
+    background-color: #e1d9b2;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+.colum{
+    display: flex;
+    order: 1;
+}
+
+.reader, .writer {
+    margin: 10px;
+}
+
+button {
+    background: #0c181c;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+.database {
+    width: 50vh;
+    height: 20vh;
+    background-color: #dcdcdc;
+    border: 1px solid #69767b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#globalMessage{
+    width: 50vh;
+    height: 20vh;
+    background-color: #dcdcdc;
+    border: 1px solid #69767b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    order: 2;
+    padding: 50px 50px 50px 50px;
+    border-radius: 10px;
+}
